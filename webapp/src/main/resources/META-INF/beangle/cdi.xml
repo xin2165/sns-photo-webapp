@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<cdi>
+  <container name="web">
+    <module class="org.openurp.sns.photo.web.DefaultModule"/>
+  </container>
+  <container>
+    <module class="org.openurp.sns.photo.web.DaoModule"/>
+  </container>
+</cdi>
