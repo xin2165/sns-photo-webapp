@@ -49,6 +49,16 @@
       <artifactId>beangle-data-hibernate_2.12</artifactId>
     </dependency>
     <dependency>
+      <groupId>org.beangle.cache</groupId>
+      <artifactId>beangle-cache-core_2.12</artifactId>
+      <version>${beangle.cache.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.ehcache</groupId>
+      <artifactId>ehcache</artifactId>
+      <version>3.1.1</version>
+    </dependency>
+    <dependency>
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-ehcache</artifactId>
       <version>${hibernate.version}</version>
